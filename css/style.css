@@ -1,0 +1,30 @@
+.carousel-item{
+    height: 90vh;
+}
+.carousel-caption{
+    top:40%;
+}
+.carousel-caption h5{
+    font-size: 3rem;
+}
+.carousel-caption p{
+    font-size: 1.5rem;
+}
+.service{
+    margin: 10% 0;
+}
+.service .icon{
+    color: rgb(13, 110, 253);
+}
+.testmonail{
+    padding: 5% 0;
+}
+.testmonail img{
+    height: 22vh;
+}
+.testmonail h2{
+    color: 3rem;
+}
+.testmonai p{
+    color: 1.5rem;
+}
