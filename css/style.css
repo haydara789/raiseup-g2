@@ -1,30 +1,91 @@
-.carousel-item{
+body {
+    background-color:whitesmoke;
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+    color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3%;
+}
+
+.btn {
+    margin: 0;
+}
+
+.active {
+    background-color: #a5b1c2;
+    color: #dfe6e9 !important;
+}
+
+.carousel-item {
     height: 90vh;
 }
-.carousel-caption{
-    top:40%;
+
+.carousel-caption {
+    top: 40%;
 }
-.carousel-caption h5{
+
+.carousel-caption h5 {
     font-size: 3rem;
 }
-.carousel-caption p{
+
+.carousel-caption p {
     font-size: 1.5rem;
 }
-.service{
+
+.service {
     margin: 10% 0;
 }
-.service .icon{
+
+.service .icon {
     color: rgb(13, 110, 253);
 }
-.testmonail{
+
+.testmonail {
     padding: 5% 0;
 }
-.testmonail img{
+
+.testmonail img {
     height: 22vh;
 }
-.testmonail h2{
+
+.testmonail h2 {
     color: 3rem;
 }
-.testmonai p{
+
+.testmonai p {
     color: 1.5rem;
 }
+/* strat email */
+.back{
+    background-image: url('../img/masthead.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* strat email */
+/* start scroll */
+.scroll-to-top {
+    /* height: 100px; */
+    /* width: 100px; */
+    line-height: 100px;
+    /* background-color: #e15f41; */
+    color: #fff;
+    border-radius: 1px solid #dfe6e9;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 2%;
+    right: 0;
+    cursor: pointer;
+    display: none;
+}
+
+/* end scroll */
+/* start footer */
+footer {
+    background-color: #a5b1c2;
+    padding: 25px;
+}
+
+/* end footer */
